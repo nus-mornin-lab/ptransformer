@@ -1,0 +1,5 @@
+# Dataset arguments
+dataset:  "mimic_mortality"
+n_class: 2
+
+  

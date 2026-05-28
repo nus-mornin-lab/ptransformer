@@ -1,0 +1,9 @@
+# Common arguments
+seed: 1888
+logger: False
+devices: "5," 
+comments: ""
+
+
+# Config files
+model_conf_path: "./configs/models/trans_medprompts_mimic_mortality.yaml"

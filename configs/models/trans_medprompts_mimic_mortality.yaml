@@ -1,0 +1,24 @@
+# Model arguments
+batch_size: 256
+lr: 1.0e-5
+max_epochs: 40
+
+model: "trans_medprompts_mimic_mortality"
+d_hidden: 768
+n_layers: 6
+ablation: "None"
+
+
+# Datasets
+dataset_conf_path: "./configs/datasets/mimic_mortality.yaml"
+
+# # NORMAL
+train_x_dir: "./data/datasets/mimic/train_trans_medprompts_x.npy"
+train_y_dir: "./data/datasets/mimic/train_trans_medprompts_y.npy"
+
+val_x_dir: "./data/datasets/mimic/val_trans_medprompts_x.npy"
+val_y_dir: "./data/datasets/mimic/val_trans_medprompts_y.npy"
+
+test_x_dir: "./data/datasets/mimic/test_trans_medprompts_x.npy"
+test_y_dir: "./data/datasets/mimic/test_trans_medprompts_y.npy"
+
